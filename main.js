@@ -9,7 +9,7 @@ const fetchUsers = async () => {
   await fs.writeFile("users.json", JSON.stringify(data));
 };
 
-fetchUsers();
+// fetchUsers();
 
 // 2
 
